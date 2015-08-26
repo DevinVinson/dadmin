@@ -1,0 +1,23 @@
+/**
+ * Dadmin plugin WordPress admin area customization
+ */
+
+/* Taller Admin Bar */
+@media screen and ( min-width: 782px ) {
+  html.wp-toolbar {
+    padding-top: 60px;
+  }
+  #wpadminbar {
+    height: 60px;
+  }
+  #wpadminbar .quicklinks .ab-empty-item, #wpadminbar .quicklinks a, #wpadminbar .shortlink-input {
+    height: 60px;
+    line-height: 60px;
+  }
+  #wpadminbar .ab-icon, #wpadminbar .ab-item:before, #wpadminbar>#wp-toolbar>#wp-admin-bar-root-default .ab-icon {
+    padding: 16px 0;
+  }
+}
+@media screen and ( min-width: 600px ){
+
+}
